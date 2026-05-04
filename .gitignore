@@ -1,0 +1,19 @@
+# Obsidian local workspace state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Obsidian cache / generated files
+.obsidian/cache/
+
+# Local plugin runtime files
+.obsidian/plugins/*/node_modules/
+.obsidian/plugins/*/.git/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
