@@ -23,7 +23,10 @@
 - Для практики ведения заметок: [[Obsidian]] -> [[Zettelkasten]] -> [[Second Brain]].
 - Для захвата новых материалов: [[Obsidian Web Clipper]] -> [[LLM Wiki Workflow]].
 
+## Schema агента
+
+Правила для LLM-агента, который поддерживает vault, лежат в `AGENTS.md` в корне репозитория. Это единственный source of truth для базового поведения: ingest, query, lint, обработка изменений в `raw/`, lifecycle и конфликты источников.
+
 ## Открытые вопросы
 
-- Нужен ли отдельный schema-файл с правилами vault, например `AGENTS.md` или `wiki/schema.md`?
 - Будем ли вводить lifecycle-поля в frontmatter каждой wiki-страницы: `confidence`, `last_verified`, `sources`, `relationships`?
